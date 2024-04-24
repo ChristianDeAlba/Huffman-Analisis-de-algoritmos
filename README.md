@@ -10,14 +10,12 @@ D01 24A
 
 
 Introducción
-
 El presente reporte aborda el desarrollo de un programa en Python para la creación de un compresor de archivos utilizando el algoritmo de Huffman. El propósito de este proyecto es proporcionar una herramienta simple y efectiva para comprimir y descomprimir archivos de texto, aprovechando las ventajas de la codificación de Huffman para reducir el tamaño de los archivos.
-Objetivos
 
+Objetivos
 El objetivo principal es implementar la funcionalidad de compresión y descompresión de archivos utilizando el algoritmo de Huffman. Así como mejorar la interfaz de usuario para proporcionar una interface intuitiva así como comprimir y descomprimir archivos grandes de manera eficiente.
 
 Desarrollo
-
 Funciones:
 LeerArchivo(archivo): Esta función recibe la ruta de un archivo como entrada, lee su contenido y muestra el número de caracteres en el archivo. Utiliza la función open() para abrir el archivo en modo lectura y archivo.read() para leer su contenido. Luego, cuenta el número de caracteres utilizando la función len() y actualiza una etiqueta en la GUI con esta información.
 BuscarArchivo(): Esta función abre un cuadro de diálogo para que el usuario pueda seleccionar un archivo. Utiliza filedialog.askopenfilename() para abrir el cuadro de diálogo y archivo_entrada.delete() y archivo_entrada.insert() para mostrar la ruta del archivo seleccionado en un campo de entrada en la GUI.
